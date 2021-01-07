@@ -388,8 +388,11 @@ int EulerSpiral::SolveIteratively(double x0,
 		                 __LINE__,
 		                 "): Error : ",
 		                 error0,
+		                 " ",
 		                 error1,
+		                 " ",
 		                 error2,
+		                 " ",
 		                 error3);
 	} while (i <= iternum);
 
